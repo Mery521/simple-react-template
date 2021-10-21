@@ -1,0 +1,80 @@
+.movie {
+    width: 385px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.movieImg {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 8px;
+}
+
+.postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #333333;
+}
+
+.postDirector {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    width: 385px;
+    height: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+.postDirector b {
+    font-size: 13px;
+}
+.postDirector a{
+    font-size: 16px;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.postDesc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin: 15px;
+}
+.imageDate {
+    font-weight: 400;
+    color: #333333;
+    background: #cccccc;
+    margin-top: 8px;
+    width: 385px;
+    height: 30px;
+    border-radius: 4px;
+}
+.date {
+    font-size: 13px;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
